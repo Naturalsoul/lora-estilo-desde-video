@@ -32,9 +32,9 @@ flowchart LR
 
 - **Datos:** de 8.247 frames a **484 imágenes** revisadas y descritas.
 - **Entrenamiento:** 1.936 pasos en **4 h 01 min** en una RTX 4070 SUPER de 12 GB. La pérdida media final fue 0,113. Se guardó un checkpoint por época para compararlas.
-![Comparación sin y con el LoRA: mismo prompt y misma seed](comparacion.jpg)
+![Comparación sin y con el LoRA: guarida del Team Rocket](comparacion.jpg)
 
-*Mismo prompt, misma seed (777) y mismos ajustes; lo único que cambia es el LoRA.*
+*Dos escenas de la guarida del Team Rocket: la de la izquierda generada con el modelo base y la de la derecha con el LoRA. No comparten prompt ni seed; muestran el estilo de cada una.*
 
 - **Efecto:** el LoRA cambia el aspecto brillante y de alto contraste del modelo base por la luz suave y mate de Let's Go. La época 4 es la más fiel al juego.
 
