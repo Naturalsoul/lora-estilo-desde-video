@@ -32,6 +32,10 @@ flowchart LR
 
 - **Datos:** de 8.247 frames a **484 imágenes** revisadas y descritas.
 - **Entrenamiento:** 1.936 pasos en **4 h 01 min** en una RTX 4070 SUPER de 12 GB. La pérdida media final fue 0,113. Se guardó un checkpoint por época para compararlas.
+![Comparación sin y con el LoRA: mismo prompt y misma seed](comparacion.jpg)
+
+*Mismo prompt, misma seed (777) y mismos ajustes; lo único que cambia es el LoRA.*
+
 - **Efecto:** el LoRA cambia el aspecto brillante y de alto contraste del modelo base por la luz suave y mate de Let's Go. La época 4 es la más fiel al juego.
 
 ## Ampliación por zonas (`pipeline/mineria/`)
@@ -76,6 +80,6 @@ Python · NumPy · Pillow · ffmpeg · yt-dlp · Qwen2.5-VL 7B (fp8) · Qwen-Ima
 
 ## Nota legal
 
-El código está bajo licencia [MIT](LICENSE). Este repositorio contiene **solo código**. No incluye el video, los frames, el dataset ni el LoRA entrenado: son material de un juego con copyright (© Nintendo / Game Freak / The Pokémon Company). El proyecto es personal y sin fines comerciales.
+El código está bajo licencia [MIT](LICENSE). Este repositorio contiene código y una imagen de comparación generada por mí. No incluye el video, los frames, el dataset ni el LoRA entrenado: son material de un juego con copyright (© Nintendo / Game Freak / The Pokémon Company). El proyecto es personal y sin fines comerciales.
 
 Desarrollado con ayuda de Claude Code como asistente de programación.
