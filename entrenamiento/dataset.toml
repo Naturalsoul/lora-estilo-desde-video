@@ -1,0 +1,14 @@
+# Dataset para musubi-tuner (LoRA de estilo LGPE sobre Qwen-Image 2512).
+# Rutas absolutas: musubi se ejecuta desde su propia carpeta. Cámbialas por las tuyas.
+# 960x544 = maximo recomendado para 12 GB de VRAM; los frames 1920x1008 se reducen con buckets
+[general]
+resolution = [960, 544]
+caption_extension = ".txt"
+batch_size = 1
+enable_bucket = true
+bucket_no_upscale = false
+
+[[datasets]]
+image_directory = "C:/ruta/al/proyecto/pipeline/dataset"
+cache_directory = "C:/ruta/al/proyecto/pipeline/cache"
+num_repeats = 1

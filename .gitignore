@@ -1,0 +1,19 @@
+# Datos generados: pesan decenas de GB y son capturas de un juego con copyright
+pipeline/videos/
+pipeline/frames/
+pipeline/candidatas/
+pipeline/dataset/
+pipeline/dataset_extra/
+pipeline/cache/
+pipeline/salida/
+pipeline/mineria/hojas/
+pipeline/mineria/zonas/
+pipeline/*.jsonl
+pipeline/*.csv
+pipeline/*.log
+*.safetensors
+*.png
+*.jpg
+*.webm
+*.mp4
+__pycache__/
