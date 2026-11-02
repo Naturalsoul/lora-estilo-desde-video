@@ -76,6 +76,6 @@ Python · NumPy · Pillow · ffmpeg · yt-dlp · Qwen2.5-VL 7B (fp8) · Qwen-Ima
 
 ## Nota legal
 
-Este repositorio contiene **solo código**. No incluye el video, los frames, el dataset ni el LoRA entrenado: son material de un juego con copyright (© Nintendo / Game Freak / The Pokémon Company). El proyecto es personal y sin fines comerciales.
+El código está bajo licencia [MIT](LICENSE). Este repositorio contiene **solo código**. No incluye el video, los frames, el dataset ni el LoRA entrenado: son material de un juego con copyright (© Nintendo / Game Freak / The Pokémon Company). El proyecto es personal y sin fines comerciales.
 
 Desarrollado con ayuda de Claude Code como asistente de programación.
