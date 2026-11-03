@@ -17,4 +17,4 @@ pipeline/*.log
 *.webm
 *.mp4
 __pycache__/
-!comparacion_guarida.jpg
+!comparacion_ruta.jpg
